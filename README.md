@@ -1,13 +1,13 @@
-# ![RealWorld Example App](logo.png)
+# ![npmworld Example App](logo.png)
 
-> ### Adonis codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
+> ### Adonis codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [npmworld](https://github.com/gothinkster/npmworld) spec and API.
 
 
 This codebase was created to demonstrate a fully fledged fullstack application built with **Adonis** including CRUD operations, authentication, routing, pagination, and more.
 
 We've gone to great lengths to adhere to the **Adonis** community styleguides & best practices.
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+For more information on how to this works with other frontends/backends, head over to the [npmworld](https://github.com/gothinkster/npmworld) repo.
 
 
 # Getting started
@@ -57,9 +57,9 @@ node ace --help
 
 This application adheres to the api specifications set by the [Thinkster](https://github.com/gothinkster) team. This helps mix and match any backend with any other frontend without conflicts.
 
-> [Full API Spec](https://github.com/gothinkster/realworld/tree/master/api)
+> [Full API Spec](https://github.com/gothinkster/npmworld/tree/master/api)
 
-More information regarding the project can be found here https://github.com/gothinkster/realworld
+More information regarding the project can be found here https://github.com/gothinkster/npmworld
 
 ## Environment variables
 
