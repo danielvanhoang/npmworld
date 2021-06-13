@@ -1,0 +1,23 @@
+#Drone CI File!!!
+
+kind: pipeline
+name: default
+
+steps:
+
+- name: build
+  image: node:16-stretch-slim
+  commands:
+    - "npm install"
+
+- name: publish
+  image: plugins/docker
+  settings:
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+    repo: dhpup/npmworld
+    auto_tag: true
+    auto_tag_suffix: 1.0.12
+
