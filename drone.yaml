@@ -8,6 +8,7 @@ steps:
 - name: build
   image: node:16-stretch-slim
   commands:
+    - "apt-get update || : && apt-get install python -y"
     - "npm install"
 
 - name: publish
